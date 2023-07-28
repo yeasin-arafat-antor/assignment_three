@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Fruits Website</title>
+  <link rel="shortcut icon" href="./images/fav_icon.png" type="image/x-icon">
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Fonts -->
+
+
+  <!-- Talwind and Daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+
+  <!-- Navigation bar start -->
+
+
+  <div class="navigation">
+    <div class="navigation_bar">
+      <div class="navbar">
+
+
+        <div class="links">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop</li>
+          <li>All Fruits</li>
+        </div>
+
+
+
+        <div class="logo">
+          <img class="logo_img" src="./images/logo.png" alt="">
+          <p>Fruit Burst</p>
+        </div>
+
+
+
+
+
+        <div class="search">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation bar end -->
+
+
+
+
+
+  <!-- Banner part start -->
+
+  <div class="carousel h-[600px] w-[1440px] justify-items-center	items-center	">
+    <div id="slide1" class="carousel-item relative w-full ">
+
+      <div class="content">
+        <img src="./images/banner1.png" class="w-full" />
+      </div>
+
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide4" class="btn btn-circle">❮</a>
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+
+
+
+
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="./images/banner2.png" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="./images/banner3.png" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="./images/banner4.png" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner Part End -->
+
+
+
+  <!-- Banner Two Start -->
+
+
+  <div class="bn_two">
+    <div class="banner_two">
+
+
+      <div class="five_images">
+        <div class="image_one all_one">
+          <img src="./images/fruit1.png" alt="">
+          <p>Strawberry</p>
+        </div>
+        <div class="image_two all_one">
+          <img src="./images/fruit2.png" alt="">
+          <p>Orange</p>
+        </div>
+        <div class="image_three all_one">
+          <img src="./images/fruit3.png" alt="">
+          <p>Mango</p>
+        </div>
+        <div class="image_four all_one">
+          <img src="./images/fruit4.png" alt="">
+          <p>Strawberry</p>
+        </div>
+        <div class="image_five all_one">
+          <img src="./images/fruit5.png" alt="">
+          <p>Mango</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Banner Two End -->
+
+
+
+
+  <!-- Countdown item start -->
+
+
+  <div class="c_items">
+
+    <div class="content">
+      <h1 class="c-h-one">Deal of the day</h1>
+      <p class="c-p-one">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+        <br>Latin literature from 45 BC, making it over 2000 years old.
+      </p>
+    </div>
+
+
+    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+      <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:15;"></span>
+        </span>
+        days
+      </div>
+      <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:10;"></span>
+        </span>
+        hours
+      </div>
+      <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:24;"></span>
+        </span>
+        min
+      </div>
+      <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:29;"></span>
+        </span>
+        sec
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Countdown item end -->
+
+
+
+
+
+  <!-- rating item start -->
+
+
+  <div class="maindiv">
+
+
+    <div class="four_cart">
+      <div class="cartone all">
+
+        <img class="r-img-one" src="./images/fruit6.png" alt="">
+        <h1 class="r-h">12.90$ - 18.85$</h1>
+        <hr>
+
+        <p class="r-p">Apples</p>
+
+
+        <div class="rating rating-lg rating-half ">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+        </div>
+
+        <p class="r-p-two">Details</p>
+
+      </div>
+
+
+      <div class="carttwo all">
+
+        <img class="r-img" src="./images/fruit7.png" alt="">
+        <h1 class="r-h">12.90$ - 18.85$</h1>
+        <hr>
+
+        <p class="r-p">Orange</p>
+
+
+        <div class="rating rating-lg rating-half ">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+        </div>
+
+        <p class="r-p-two">Details</p>
+
+      </div>
+
+
+
+      <div class="cartthree all">
+
+        <img class="r-img" src="./images/fruit8.png" alt="">
+        <h1 class="r-h">12.90$ - 18.85$</h1>
+        <hr>
+
+        <p class="r-p">Red Dragon</p>
+
+
+        <div class="rating rating-lg rating-half ">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+        </div>
+
+        <p class="r-p-two">Details</p>
+
+      </div>
+
+
+      <div class="cartfour all">
+
+        <img class="r-img" src="./images/fruit9.png" alt="">
+        <h1 class="r-h">12.90$ - 18.85$</h1>
+        <hr>
+
+        <p class="r-p">Banana</p>
+
+
+        <div class="rating rating-lg rating-half ">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+        </div>
+
+        <p class="r-p-two">Details</p>
+
+      </div>
+    </div>
+
+    <button class="rating_button">Shop All</button>
+  </div>
+
+  <!-- rating item end -->
+
+
+
+
+
+
+  <!-- Meeting section start -->
+
+
+<div class="meeting_div">
+  <div class="overlay_meeting"></div>
+
+
+</div>
+
+  <!-- Meeting section end -->
+
+
+
+
+<!-- footer section start -->
+<div class="footer">
+
+
+
+  <div class="logo f-logo">
+    <img class="logo_img" src="./images/logo.png" alt="">
+    <p>Fruit Burst</p>
+  </div>
+
+
+
+  <div class="f-links">
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Shop</li>
+    <li>All Fruits</li>
+  </div>
+
+
+</div>
+<!-- footer section end  -->
+
+
+</body>
+
+</html>
